@@ -1,0 +1,58 @@
+                @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+                * {
+                    margin: 0%;
+                }
+                
+                body {
+                    width: 100vw;
+                    height: 100vh;
+                    font-family: "Roboto", sans-serif;
+                }
+                
+                .header header {
+                    background-color: rgba(49, 113, 243, 0.973);
+                    color: white;
+                    height: 55px;
+                }
+                
+                h1 {
+                    padding: 4px;
+                }
+                
+                fieldset {
+                    width: fit-content;
+                    margin-top: 50px;
+                    border: none;
+                }
+                
+                #grade,
+                #grade1,
+                #grade2,
+                #grade3,
+                #grade4 {
+                    width: 70px;
+                    height: 25px;
+                    border-radius: 3px;
+                    border: 1px solid grey;
+                    margin: 6px;
+                }
+                
+                #credit,
+                #credit1,
+                #credit2,
+                #credit3,
+                #credit4 {
+                    width: 70px;
+                    height: 25px;
+                    border-radius: 3px;
+                    border: 1px solid grey;
+                    margin: 6px;
+                }
+                
+                input {
+                    width: 170px;
+                    height: 25px;
+                    border-radius: 3px;
+                    border: 1px solid grey;
+                    margin: 6px;
+                }

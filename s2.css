@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+fieldset {
+    width: fit-content;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#grade,
+#grade1,
+#grade2,
+#grade3,
+#grade4 {
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin: 6px;
+}
+
+#credit,
+#credit1,
+#credit2,
+#credit3,
+#credit4 {
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin: 6px;
+}
+
+input {
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin: 6px;
+}

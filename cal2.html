@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+        body {
+            font-family: "Roboto", sans-serif;
+        }
+        
+        table {
+            margin-top: 140px;
+        }
+        
+        td {
+            width: 80px;
+            text-align: center;
+        }
+        
+        #title {
+            background-color: black;
+            color: white;
+        }
+        
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <table border="1">
+            <tr id="title">
+                <td>subject</td>
+                <td>grade</td>
+                <td>credit</td>
+            </tr>
+            <tr>
+                <td>
+                    <p id="s1"></p>
+                </td>
+                <td>
+                    <p id="g1"></p>
+                </td>
+                <td>
+                    <p id="c1"></p>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <p id="s2"></p>
+                </td>
+                <td>
+                    <p id="g2"></p>
+                </td>
+                <td>
+                    <p id="c2"></p>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <p id="s3"></p>
+                </td>
+                <td>
+                    <p id="g3"></p>
+                </td>
+                <td>
+                    <p id="c3"></p>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <p id="s4"></p>
+                </td>
+                <td>
+                    <p id="g4"></p>
+                </td>
+                <td>
+                    <p id="c4"></p>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <p id="s5"></p>
+                </td>
+                <td>
+                    <p id="g5"></p>
+                </td>
+                <td>
+                    <p id="c5"></p>
+                </td>
+
+            </tr>
+
+        </table>
+        <h3 id="demo">Your GPA is</h3>
+    </center>
+
+    <script>
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+
+        const s1 = getQueryParam('subject1');
+        const s2 = getQueryParam('subject2');
+        const s3 = getQueryParam('subject3');
+        const s4 = getQueryParam('subject4');
+        const s5 = getQueryParam('subject5');
+        const g1 = getQueryParam("g1");
+        const g2 = getQueryParam("g2");
+        const g3 = getQueryParam("g3");
+        const g4 = getQueryParam("g4");
+        const g5 = getQueryParam("g5");
+        const c1 = getQueryParam("c1");
+        const c2 = getQueryParam("c2");
+        const c3 = getQueryParam("c3");
+        const c4 = getQueryParam("c4");
+        const c5 = getQueryParam("c5");
+
+
+        document.getElementById('s1').textContent = s1;
+        document.getElementById('s2').textContent = s2;
+        document.getElementById('s3').textContent = s3;
+        document.getElementById('s4').textContent = s4;
+        document.getElementById('s5').textContent = s5;
+        document.getElementById('g1').textContent = g1;
+        document.getElementById('g2').textContent = g2;
+        document.getElementById('g3').textContent = g3;
+        document.getElementById('g4').textContent = g4;
+        document.getElementById('g5').textContent = g5;
+        document.getElementById('c1').textContent = c1;
+        document.getElementById('c2').textContent = c2;
+        document.getElementById('c3').textContent = c3;
+        document.getElementById('c4').textContent = c4;
+        document.getElementById('c5').textContent = c5;
+    </script>
+</body>
+
+</html>
